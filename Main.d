@@ -1,0 +1,1 @@
+ Main.d  Main.p1:  D:/Dropbox/Proyectos/Electronica/BTRelay/Main.c D:/Dropbox/Proyectos/Electronica/BTRelay/FIFO.h D:/Dropbox/Proyectos/Electronica/BTRelay/Relay.h D:/Dropbox/Proyectos/Electronica/BTRelay/Timer.h D:/Dropbox/Proyectos/Electronica/BTRelay/Button.h D:/Dropbox/Proyectos/Electronica/BTRelay/HardwareProfile.h D:/Dropbox/Proyectos/Electronica/BTRelay/UART.h

@@ -1,0 +1,1302 @@
+[p LITE_MODE AUTOSTATIC IEEE_DBL LFSROK IEEE_FLT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F252 ]
+[e E2446 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"20 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.h
+[v F3397 `(v  1 t 0 ]
+"46 C:\Program Files (x86)\Microchip\xc8\v1.12\include\string.h
+[s S82 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+[s S91 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S93 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S96 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S99 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S102 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S105 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S108 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S111 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S114 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 ]
+"31 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v F3425 `(v  1 t 0 ]
+"202
+[s S235 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+[s S242 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S246 . 1 `S235 1 . 1 0 `S242 1 . 1 0 ]
+"4075 C:\Program Files (x86)\Microchip\xc8\v1.12\include\pic18f252.h
+[s S262 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+[s S271 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S289 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S298 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S302 . 1 `S262 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S289 1 . 1 0 `S298 1 . 1 0 ]
+"2969
+[s S378 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+[s S383 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[s S388 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S391 . 1 `S378 1 . 1 0 `S383 1 . 1 0 `S388 1 . 1 0 ]
+"2925
+[s S409 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+[s S418 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S427 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[u S430 . 1 `S409 1 . 1 0 `S418 1 . 1 0 `S427 1 . 1 0 ]
+"1370
+[s S456 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+[s S465 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[s S474 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2 1 0 :1:3 
+]
+[u S477 . 1 `S456 1 . 1 0 `S465 1 . 1 0 `S474 1 . 1 0 ]
+"1131
+[s S503 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+[s S511 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[u S519 . 1 `S503 1 . 1 0 `S511 1 . 1 0 ]
+"928
+[s S539 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+[s S548 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S550 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S553 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S556 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S559 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S562 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S565 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S568 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S571 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 ]
+"38 D:\Dropbox\Proyectos\Electronica\BTRelay\HardwareProfile.h
+[s S586 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+[s S588 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S591 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S594 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S597 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S600 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S608 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_IPEN 1 0 :1:7 
+]
+[s S611 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 nIPEN 1 0 :1:7 
+]
+[u S619 . 1 `S586 1 . 1 0 `S588 1 . 1 0 `S591 1 . 1 0 `S594 1 . 1 0 `S597 1 . 1 0 `S600 1 . 1 0 `S608 1 . 1 0 `S611 1 . 1 0 ]
+"3809 C:\Program Files (x86)\Microchip\xc8\v1.12\include\pic18f252.h
+[s S662 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+[s S671 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S680 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S689 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S698 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S702 . 1 `S262 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S289 1 . 1 0 `S298 1 . 1 0 ]
+"12 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.h
+[v F3199 `[128]uc  128a t 128 ]
+"123 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[s S790 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+[s S798 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S801 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S804 . 1 `S790 1 . 1 0 `S798 1 . 1 0 `S801 1 . 1 0 ]
+"20 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.h
+[s S828 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+[s S837 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S841 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S844 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S847 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S850 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S853 . 1 `S828 1 . 1 0 `S837 1 . 1 0 `S841 1 . 1 0 `S844 1 . 1 0 `S847 1 . 1 0 `S850 1 . 1 0 ]
+"2047 C:\Program Files (x86)\Microchip\xc8\v1.12\include\pic18f252.h
+[s S886 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+[s S895 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S899 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S902 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S905 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S908 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S911 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S914 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S917 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S920 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S922 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S925 . 1 `S886 1 . 1 0 `S895 1 . 1 0 `S899 1 . 1 0 `S902 1 . 1 0 `S905 1 . 1 0 `S908 1 . 1 0 `S911 1 . 1 0 `S914 1 . 1 0 `S917 1 . 1 0 `S920 1 . 1 0 `S922 1 . 1 0 ]
+"2289
+[s S977 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+[s S986 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S995 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[u S998 . 1 `S409 1 . 1 0 `S418 1 . 1 0 `S427 1 . 1 0 ]
+"2550
+[s S1004 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+[s S1012 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IE 1 0 :1:5 
+]
+[s S1015 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IE 1 0 :1:4 
+]
+[u S1018 . 1 `S1004 1 . 1 0 `S1012 1 . 1 0 `S1015 1 . 1 0 ]
+"1597
+[e E2446 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"20 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.h
+[v UART@F3397 `(v  1 t 0 ]
+"100 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v F3415 `(v  1 t 0 ]
+"173
+[s S1100 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+[s S1109 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S1111 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S1114 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S1117 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S1120 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S1123 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S1126 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S1129 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S1132 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 ]
+"19 D:\Dropbox\Proyectos\Electronica\BTRelay\Relay.c
+[e E2446 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+[s S1149 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+[s S1157 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S1165 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+]
+[s S1172 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S1175 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RA7 1 0 :1:7 
+]
+[s S1178 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S1181 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S1183 . 1 `S511 1 . 1 0 `S1157 1 . 1 0 `S1165 1 . 1 0 `S1172 1 . 1 0 `S1175 1 . 1 0 `S1178 1 . 1 0 `S1181 1 . 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\abdiv.c
+[v ___abdiv `(c  1 e 1 0 ]
+"5 ../common/asfladd.c
+[v ___asfladd `(d  1 e 4 0 ]
+"5 ../common/asfldiv.c
+[v ___asfldiv `(d  1 e 4 0 ]
+"5 ../common/asflmul.c
+[v ___asflmul `(d  1 e 4 0 ]
+"5 ../common/asflsub.c
+[v ___asflsub `(d  1 e 4 0 ]
+"5 ../common/asftadd.c
+[v ___asftadd `(f  1 e 4 0 ]
+"5 ../common/asftdiv.c
+[v ___asftdiv `(f  1 e 4 0 ]
+"5 ../common/asftmul.c
+[v ___asftmul `(f  1 e 4 0 ]
+"5 ../common/asftsub.c
+[v ___asftsub `(f  1 e 4 0 ]
+"5 ../common/aslmul.c
+[v ___aslmul `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\abmod.c
+[v ___abmod `(c  1 e 1 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\abtofl.c
+[v ___abtofl `(d  1 e 4 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\abtoft.c
+[v ___abtoft `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\altofl.c
+[v ___altofl `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\altoft.c
+[v ___altoft `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\atdiv.c
+[v ___atdiv `(m  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\atmod.c
+[v ___atmod `(m  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\atoi.c
+[v _atoi `(i  1 e 2 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\attofl.c
+[v ___attofl `(d  1 e 4 0 ]
+"38 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\attoft.c
+[v ___attoft `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\awdiv.c
+[v ___awdiv `(i  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\awtofl.c
+[v ___awtofl `(d  1 e 4 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\awtoft.c
+[v ___awtoft `(f  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\bmul.c
+[v ___bmul `(uc  1 e 1 0 ]
+"64 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\double.c
+[v ___flpack `(d  1 e 4 0 ]
+"89 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\fladd.c
+[v ___fladd `(d  1 e 4 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\fldiv.c
+[v ___fldiv `(d  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\flge.c
+[v ___flge `(b  1 e 0 0 ]
+"51 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\flmul.c
+[v ___flmul `(d  1 e 4 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\flneg.c
+[v ___flneg `(d  1 e 4 0 ]
+"63 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\float.c
+[v ___ftpack `(f  1 e 4 0 ]
+"22 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\flsub.c
+[v ___flsub `(d  1 e 4 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\fltol.c
+[v ___fltol `(l  1 e 4 0 ]
+"87 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftadd.c
+[v ___ftadd `(f  1 e 4 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftdiv.c
+[v ___ftdiv `(f  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftge.c
+[v ___ftge `(b  1 e 0 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftmul.c
+[v ___ftmul `(f  1 e 4 0 ]
+"16 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftneg.c
+[v ___ftneg `(f  1 e 4 0 ]
+"22 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ftsub.c
+[v ___ftsub `(f  1 e 4 0 ]
+"45 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\fttol.c
+[v ___fttol `(l  1 e 4 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\isdigit.c
+[v _isdigit `(b  1 e 0 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lbdiv.c
+[v ___lbdiv `(uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lbmod.c
+[v ___lbmod `(uc  1 e 1 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lbtofl.c
+[v ___lbtofl `(d  1 e 4 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lbtoft.c
+[v ___lbtoft `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lldiv.c
+[v ___lldiv `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lltofl.c
+[v ___lltofl `(d  1 e 4 0 ]
+"36 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lltoft.c
+[v ___lltoft `(f  1 e 4 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lmul.c
+[v ___lmul `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ltdiv.c
+[v ___ltdiv `(um  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\ltmod.c
+[v ___ltmod `(um  1 e 3 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lttofl.c
+[v ___lttofl `(d  1 e 4 0 ]
+"31 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lttoft.c
+[v ___lttoft `(f  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lwdiv.c
+[v ___lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lwmod.c
+[v ___lwmod `(ui  1 e 2 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lwtofl.c
+[v ___lwtofl `(d  1 e 4 0 ]
+"29 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\lwtoft.c
+[v ___lwtoft `(f  1 e 4 0 ]
+"34 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\strcmp.c
+[v _strcmp `(i  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\strncmp.c
+[v _strncmp `(i  1 e 2 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\tmul.c
+[v ___tmul `(um  1 e 3 0 ]
+"3 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+"6 D:\Dropbox\Proyectos\Electronica\BTRelay\Button.c
+[v _buttonTask `(v  1 e 0 0 ]
+"10 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[v _FIFOInit `(v  1 e 0 0 ]
+"22
+[v _FIFOClear `(v  1 e 0 0 ]
+"29
+[v _FIFOPut `(v  1 e 0 0 ]
+"47
+[v _FIFOGet `(uc  1 e 1 0 ]
+"68
+[v _FIFOPutPacket `(v  1 e 0 0 ]
+"92
+[v _FIFOGetPacket `(v  1 e 0 0 ]
+"116
+[v _FIFOFreeSpace `(us  1 e 2 0 ]
+"121
+[v _FIFOUsedSpace `(us  1 e 2 0 ]
+"4 D:\Dropbox\Proyectos\Electronica\BTRelay\HardwareProfile.c
+[v _BoardInit `(v  1 e 0 0 ]
+"22
+[v _EnableInterrupts `(v  1 e 0 0 ]
+"31 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _isr `II(v  1 e 0 0 ]
+"43
+[v _main `(i  1 e 2 0 ]
+"167
+[v _executeTasks `(v  1 e 0 0 ]
+"173
+[v _timerTask `(v  1 e 0 0 ]
+"4 D:\Dropbox\Proyectos\Electronica\BTRelay\Relay.c
+[v _toggleRelay `(v  1 e 0 0 ]
+"10
+[v _turnOnRelay `(v  1 e 0 0 ]
+"16
+[v _turnOffRelay `(v  1 e 0 0 ]
+"7 D:\Dropbox\Proyectos\Electronica\BTRelay\Timer.c
+[v _TMRInit `(v  1 e 0 0 ]
+"23
+[v _TMRServeInt `(v  1 e 0 0 ]
+"33
+[v _TMRDelayMs `(v  1 e 0 0 ]
+"45
+[v _TMRGetTicksCount `(ul  1 e 4 0 ]
+"50
+[v _TMRGetSecondsCount `(ul  1 e 4 0 ]
+"55
+[v _TMRTicksElapsed `(ul  1 e 4 0 ]
+"60
+[v _TMRSecondsElapsed `(ul  1 e 4 0 ]
+"9 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTServeInt `(v  1 e 0 0 ]
+"28
+[v _UARTOpen `(v  1 e 0 0 ]
+"54
+[v _UARTBusy `(E2446  1 e 1 0 ]
+"62
+[v _UARTDataReady `(E2446  1 e 1 0 ]
+"76
+[v _UARTPut `(v  1 e 0 0 ]
+"85
+[v _UARTGet `(uc  1 e 1 0 ]
+"101
+[v _UARTReadLine `(us  1 e 2 0 ]
+"141
+[v _UARTWriteLine `(v  1 e 0 0 ]
+"154
+[v _UARTSendBytes `(v  1 e 0 0 ]
+"170
+[v _UARTClose `(v  1 e 0 0 ]
+[s S511 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+]
+"92 C:\Program Files (x86)\Microchip\xc8\v1.12\include\pic18f252.h
+[s S1157 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+]
+[s S1165 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+]
+[s S1172 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S1175 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RA7 1 0 :1:7 
+]
+[s S1178 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RJPU 1 0 :1:7 
+]
+[s S1181 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+]
+[u S1183 . 1 `S511 1 . 1 0 `S1157 1 . 1 0 `S1165 1 . 1 0 `S1172 1 . 1 0 `S1175 1 . 1 0 `S1178 1 . 1 0 `S1181 1 . 1 0 ]
+[v _PORTAbits `VES1183  1 e 1 @3968 ]
+[s S82 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"682
+[s S91 . 1 `uc 1 LB0 1 0 :1:0 
+]
+[s S93 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+]
+[s S96 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LB2 1 0 :1:2 
+]
+[s S99 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 LB3 1 0 :1:3 
+]
+[s S102 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LB4 1 0 :1:4 
+]
+[s S105 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LB5 1 0 :1:5 
+]
+[s S108 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LB6 1 0 :1:6 
+]
+[s S111 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S114 . 1 `S82 1 . 1 0 `S91 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 `S108 1 . 1 0 `S111 1 . 1 0 ]
+[v _LATBbits `VES114  1 e 1 @3978 ]
+[s S503 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+]
+"928
+[u S519 . 1 `S503 1 . 1 0 `S511 1 . 1 0 ]
+[v _TRISAbits `VES519  1 e 1 @3986 ]
+[s S456 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1131
+[s S465 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[s S474 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2 1 0 :1:3 
+]
+[u S477 . 1 `S456 1 . 1 0 `S465 1 . 1 0 `S474 1 . 1 0 ]
+[v _TRISBbits `VES477  1 e 1 @3987 ]
+[s S409 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1370
+[s S418 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[s S427 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+]
+[u S430 . 1 `S409 1 . 1 0 `S418 1 . 1 0 `S427 1 . 1 0 ]
+[v _TRISCbits `VES430  1 e 1 @3988 ]
+[s S790 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"1597
+[s S798 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[s S801 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+]
+[u S804 . 1 `S790 1 . 1 0 `S798 1 . 1 0 `S801 1 . 1 0 ]
+[v _PIE1bits `VES804  1 e 1 @3997 ]
+"1670
+[v _PIR1bits `VES804  1 e 1 @3998 ]
+[s S828 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2047
+[s S837 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S841 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S844 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S847 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S850 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S853 . 1 `S828 1 . 1 0 `S837 1 . 1 0 `S841 1 . 1 0 `S844 1 . 1 0 `S847 1 . 1 0 `S850 1 . 1 0 ]
+[v _RCSTAbits `VES853  1 e 1 @4011 ]
+[s S886 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"2289
+[s S895 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S899 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S902 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S905 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 BRGH1 1 0 :1:2 
+]
+[s S908 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S911 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SYNC1 1 0 :1:4 
+]
+[s S914 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+]
+[s S917 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX91 1 0 :1:6 
+]
+[s S920 . 1 `uc 1 TX9D1 1 0 :1:0 
+]
+[s S922 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 TXEN1 1 0 :1:5 
+]
+[u S925 . 1 `S886 1 . 1 0 `S895 1 . 1 0 `S899 1 . 1 0 `S902 1 . 1 0 `S905 1 . 1 0 `S908 1 . 1 0 `S911 1 . 1 0 `S914 1 . 1 0 `S917 1 . 1 0 `S920 1 . 1 0 `S922 1 . 1 0 ]
+[v _TXSTAbits `VES925  1 e 1 @4012 ]
+"2528
+[v _TXREG `VEuc  1 e 1 @4013 ]
+"2539
+[v _RCREG `VEuc  1 e 1 @4014 ]
+"2550
+[v _SPBRG `VEuc  1 e 1 @4015 ]
+[s S378 . 1 `uc 1 PCFG 1 0 :4:0 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2925
+[s S383 . 1 `uc 1 PCFG0 1 0 :1:0 
+`uc 1 PCFG1 1 0 :1:1 
+`uc 1 PCFG2 1 0 :1:2 
+`uc 1 PCFG3 1 0 :1:3 
+]
+[s S388 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S391 . 1 `S378 1 . 1 0 `S383 1 . 1 0 `S388 1 . 1 0 ]
+[v _ADCON1bits `VES391  1 e 1 @4033 ]
+"2969
+[v _ADCON0 `VEuc  1 e 1 @4034 ]
+[s S586 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"3809
+[s S588 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S591 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S594 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S597 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S600 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S608 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_IPEN 1 0 :1:7 
+]
+[s S611 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 nIPEN 1 0 :1:7 
+]
+[u S619 . 1 `S586 1 . 1 0 `S588 1 . 1 0 `S591 1 . 1 0 `S594 1 . 1 0 `S597 1 . 1 0 `S600 1 . 1 0 `S608 1 . 1 0 `S611 1 . 1 0 ]
+[v _RCONbits `VES619  1 e 1 @4048 ]
+[s S235 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"4026
+[s S242 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S246 . 1 `S235 1 . 1 0 `S242 1 . 1 0 ]
+[v _T0CONbits `VES246  1 e 1 @4053 ]
+"4075
+[v _TMR0 `VEus  1 e 2 @4054 ]
+[s S262 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"4556
+[s S271 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S280 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[s S289 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S298 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S302 . 1 `S262 1 . 1 0 `S271 1 . 1 0 `S280 1 . 1 0 `S289 1 . 1 0 `S298 1 . 1 0 ]
+[v _INTCONbits `VES302  1 e 1 @4082 ]
+"5480
+[v _RCIE `VEb  1 e 0 @31981 ]
+"5482
+[v _RCIF `VEb  1 e 0 @31989 ]
+"5654
+[v _TMR0IE `VEb  1 e 0 @32661 ]
+"5656
+[v _TMR0IF `VEb  1 e 0 @32658 ]
+"3 D:\Dropbox\Proyectos\Electronica\BTRelay\Button.c
+[v _issueButton `E2446  1 s 1 issueButton ]
+"3 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[v _bFIFOBuffer `[1][128]uc  1 e 128 0 ]
+"5
+[v _wHeadPtr `[1]us  1 e 2 0 ]
+"6
+[v _wTailPtr `[1]us  1 e 2 0 ]
+"7
+[v _wUsedSpace `[1]us  1 e 2 0 ]
+"19 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _line `[128]uc  1 s 128 line ]
+"20
+[v _onTimer `E2446  1 e 1 0 ]
+"21
+[v _startSeconds `ul  1 e 4 0 ]
+"22
+[v _triggerSeconds `ul  1 e 4 0 ]
+"23
+[v _lastSeconds `ul  1 e 4 0 ]
+"24
+[v _timerTriggerState `uc  1 e 1 0 ]
+"3 D:\Dropbox\Proyectos\Electronica\BTRelay\Timer.c
+[v _ticksCount `VEul  1 s 4 ticksCount ]
+"4
+[v _secondsCount `VEul  1 s 4 secondsCount ]
+"43 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _main `(i  1 e 2 0 ]
+{
+"44
+[v main@num `us  1 a 2 56 ]
+"164
+} 0
+"4 D:\Dropbox\Proyectos\Electronica\BTRelay\HardwareProfile.c
+[v _BoardInit `(v  1 e 0 0 ]
+{
+"20
+} 0
+"7 D:\Dropbox\Proyectos\Electronica\BTRelay\Timer.c
+[v _TMRInit `(v  1 e 0 0 ]
+{
+"20
+} 0
+"10 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[v _FIFOInit `(v  1 e 0 0 ]
+{
+"11
+[v FIFOInit@i `us  1 a 2 28 ]
+"19
+} 0
+"28 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTOpen `(v  1 e 0 0 ]
+{
+[v UARTOpen@spbrg `uc  1 p 1 26 ]
+"51
+} 0
+"101
+[v _UARTReadLine `(us  1 e 2 0 ]
+{
+"103
+[v UARTReadLine@bytesRead `us  1 a 2 49 ]
+"102
+[v UARTReadLine@usedSpace `us  1 a 2 47 ]
+"104
+[v UARTReadLine@b `uc  1 a 1 51 ]
+"101
+[v UARTReadLine@lineBuffer `*.0uc  1 p 2 43 ]
+[v UARTReadLine@callback `*.f(v  1 p 2 45 ]
+"133
+} 0
+"34 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\strcmp.c
+[v _strcmp `(i  1 e 2 0 ]
+{
+"35
+[v strcmp@r `c  1 a 1 31 ]
+"34
+[v strcmp@s1 `*.0Cuc  1 p 2 26 ]
+[v strcmp@s2 `*.cCuc  1 p 2 28 ]
+"42
+} 0
+"141 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTWriteLine `(v  1 e 0 0 ]
+{
+[v UARTWriteLine@pBuffer `*.cuc  1 p 2 27 ]
+"151
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\strncmp.c
+[v _strncmp `(i  1 e 2 0 ]
+{
+[v strncmp@s1 `*.0Cuc  1 p 2 26 ]
+[v strncmp@s2 `*.cCuc  1 p 2 28 ]
+[v strncmp@len `ui  1 p 2 30 ]
+"14
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\atoi.c
+[v _atoi `(i  1 e 2 0 ]
+{
+"7
+[v atoi@a `i  1 a 2 38 ]
+"8
+[v atoi@sign `uc  1 a 1 37 ]
+"6
+[v atoi@s `*.0Cuc  1 p 2 32 ]
+"24
+} 0
+"167 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _executeTasks `(v  1 e 0 0 ]
+{
+"170
+} 0
+"6 D:\Dropbox\Proyectos\Electronica\BTRelay\Button.c
+[v _buttonTask `(v  1 e 0 0 ]
+{
+"23
+} 0
+"173 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _timerTask `(v  1 e 0 0 ]
+{
+"174
+[v timerTask@cs `ul  1 a 4 35 ]
+"202
+} 0
+"16 D:\Dropbox\Proyectos\Electronica\BTRelay\Relay.c
+[v _turnOffRelay `(v  1 e 0 0 ]
+{
+"19
+} 0
+"10
+[v _turnOnRelay `(v  1 e 0 0 ]
+{
+"13
+} 0
+"4
+[v _toggleRelay `(v  1 e 0 0 ]
+{
+"7
+} 0
+"50 D:\Dropbox\Proyectos\Electronica\BTRelay\Timer.c
+[v _TMRGetSecondsCount `(ul  1 e 4 0 ]
+{
+"52
+} 0
+"60
+[v _TMRSecondsElapsed `(ul  1 e 4 0 ]
+{
+[v TMRSecondsElapsed@start `ul  1 p 4 26 ]
+"62
+} 0
+"33
+[v _TMRDelayMs `(v  1 e 0 0 ]
+{
+"35
+[v TMRDelayMs@count `ul  1 a 4 38 ]
+"34
+[v TMRDelayMs@currentTicks `ul  1 a 4 34 ]
+"33
+[v TMRDelayMs@milliseconds `ul  1 p 4 26 ]
+"42
+} 0
+"22 D:\Dropbox\Proyectos\Electronica\BTRelay\HardwareProfile.c
+[v _EnableInterrupts `(v  1 e 0 0 ]
+{
+"25
+} 0
+"47 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[v _FIFOGet `(uc  1 e 1 0 ]
+{
+"49
+[v FIFOGet@wTailPtrShadow `us  1 a 2 35 ]
+"50
+[v FIFOGet@wUsedSpaceShadow `us  1 a 2 32 ]
+"48
+[v FIFOGet@res `uc  1 a 1 34 ]
+"47
+[v FIFOGet@bNum `us  1 p 2 26 ]
+"65
+} 0
+"121
+[v _FIFOUsedSpace `(us  1 e 2 0 ]
+{
+[v FIFOUsedSpace@bNum `us  1 p 2 26 ]
+"123
+} 0
+"76 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTPut `(v  1 e 0 0 ]
+{
+[v UARTPut@b `uc  1 p 1 26 ]
+"82
+} 0
+"54
+[v _UARTBusy `(E2446  1 e 1 0 ]
+{
+"59
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\isdigit.c
+[v _isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c `uc  1 p 1 26 ]
+"15
+} 0
+"3 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\wmul.c
+[v ___wmul `(ui  1 e 2 0 ]
+{
+"4
+[v ___wmul@product `ui  1 a 2 30 ]
+"3
+[v ___wmul@multiplier `ui  1 p 2 26 ]
+[v ___wmul@multiplicand `ui  1 p 2 28 ]
+"13
+} 0
+"31 D:\Dropbox\Proyectos\Electronica\BTRelay\Main.c
+[v _isr `II(v  1 e 0 0 ]
+{
+"39
+} 0
+"9 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTServeInt `(v  1 e 0 0 ]
+{
+"14
+[v UARTServeInt@byteReceived `uc  1 a 1 11 ]
+"18
+} 0
+"23 D:\Dropbox\Proyectos\Electronica\BTRelay\Timer.c
+[v _TMRServeInt `(v  1 e 0 0 ]
+{
+"30
+} 0
+"29 D:\Dropbox\Proyectos\Electronica\BTRelay\FIFO.c
+[v _FIFOPut `(v  1 e 0 0 ]
+{
+"30
+[v FIFOPut@wHeadPtrShadow `us  1 a 2 9 ]
+"31
+[v FIFOPut@wUsedSpaceShadow `us  1 a 2 7 ]
+"29
+[v FIFOPut@bNum `us  1 p 2 0 ]
+[v FIFOPut@b `uc  1 p 1 2 ]
+"44
+} 0
+"85 D:\Dropbox\Proyectos\Electronica\BTRelay\UART.c
+[v _UARTGet `(uc  1 e 1 0 ]
+{
+"86
+[v UARTGet@data `uc  1 a 1 0 ]
+"90
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v1.12\sources\llmod.c
+[v ___llmod `(ul  1 e 4 0 ]
+{
+"11
+[v ___llmod@counter `uc  1 a 1 9 ]
+"10
+[v ___llmod@dividend `ul  1 p 4 0 ]
+[v ___llmod@divisor `ul  1 p 4 4 ]
+"26
+} 0
